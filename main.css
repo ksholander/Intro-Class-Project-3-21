@@ -1,0 +1,121 @@
+html, body {
+		padding: 0;
+		margin:0;
+		background-color:  #edefec;
+	}
+
+
+
+	.header {
+		background-image: url('http://miriadna.com/desctopwalls/images/max/Ideal-landscape.jpg');
+		background-repeat: no-repeat;
+		background-position: -12px -500px;
+		height: 500px;
+		width:100%;
+	}
+
+	#logo {
+		width:200px;
+		margin: 20px 0 0 30px;
+		float: left;
+	}
+	.nav {
+		float:right;
+		color: white;
+		font-weight:bold;
+		font-size: 24px;
+		font-family: Arial;
+		margin-right:20px;
+	}
+	.nav ul li {
+		display: inline-block;
+		list-style-type: none;
+		margin-right: 10px;
+	}
+
+	.nav button {
+		background-color: #70AAE2;
+		padding: 4px 15px;
+		color: white;
+		font-weight:bold;
+		font-size: 24px;
+		font-family: Arial;
+		border-radius: 3px;
+		border: none;
+		cursor: pointer;
+	}
+
+	.nav button:hover {
+		background-color: #50AAE2;
+	}
+/* had to add clear both because float left on image 
+meant both the navigation and the logo broke out of 
+normal flow */
+	.title {
+		color: white;
+		font-weight:bold;
+		font-family: Arial;
+		text-align: center;
+		text-transform: uppercase;
+		padding-top:100px; /*switched it to padding top from margin top*/
+		clear: both; 
+	}
+	.title h1 {
+		font-size: 3em;
+		margin-bottom: 3px;
+	}
+	.title p {
+		margin:0;
+		padding:0;
+	}
+
+	.middle {
+		height: 100px;
+		margin-top: -100px;
+		background-color: rgba(0,0,0, .7)
+	}
+
+	.middle form {
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	form input {
+		height: 35px;
+		width:300px;
+	}
+
+	form button {
+		color: white;
+		font-family: Arial;
+		border-radius: 3px;
+		border:none;
+		height:40px;
+		padding:5px 20px;
+		background-color: #E60000;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.main {
+		height: 500px;
+		text-align: center;
+		font-family: Arial;
+		text-transform: uppercase;
+	}
+	.main img {
+		width: 300px;
+		height:350px;
+		margin:15px;
+
+	}
+
+	.footer {
+		height: 150px;
+		background-color:black;
+		text-align: center;
+
+	}
+	.footer img {
+		margin: 30px 10px;
+	}
